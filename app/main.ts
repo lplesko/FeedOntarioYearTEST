@@ -51,6 +51,14 @@ import { dummies, years } from "./constants";
               }
             },
             {
+              fieldName: "Total_visits",
+              label: "Total visits to a food bank",
+              format: {
+                  digitSeparator: true,
+                  places: 0
+              }
+            },
+            {
               fieldName: "UniqueIndividuals_cnt",
               label: "Total unique visits",
               format: {
@@ -118,7 +126,7 @@ import { dummies, years } from "./constants";
     center: [ -85, 50 ],
     zoom: 4.5,
     highlightOptions: {
-      color: "#262626",
+      color: "#00e6e6",
       haloOpacity: 1,
       fillOpacity: 0
     }
