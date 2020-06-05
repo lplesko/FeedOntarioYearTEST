@@ -216,6 +216,14 @@ define(["require", "exports", "esri/Map", "esri/views/MapView", "esri/layers/Fea
                                     }
                                   },
                                   {
+                                    fieldName: "Total_visits",
+                                    label: "Total visits to a food bank",
+                                    format: {
+                                        digitSeparator: true,
+                                        places: 0
+                                    }
+                                  },
+                                  {
                                     fieldName: "UniqueIndividuals_cnt",
                                     label: "Total unique visits",
                                     format: {
@@ -282,7 +290,7 @@ define(["require", "exports", "esri/Map", "esri/views/MapView", "esri/layers/Fea
                         center: [-87, 50],
                         zoom: 4.5,
                         highlightOptions: {
-                            color: "#262626",
+                            color: "#00e6e6",
                             haloOpacity: 1,
                             fillOpacity: 0
                         }
